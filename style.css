@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: 140vh;
+    background-position: top center;
+}
+
+div#tel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div#tela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img#home {
+    width: 260px;
+    height: 468px;
+}
+
+ul {
+    position: absolute;
+    right: 10px;
+    margin: 20px;
+    list-style: none;
+}
+
+ul img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+ul img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
